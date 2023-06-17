@@ -1,0 +1,25 @@
+[11-Dec-2019 19:00:57 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'editor'@'localhost' (using password: YES) in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 7
+[11-Dec-2019 19:01:55 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'editor'@'localhost' (using password: YES) in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 7
+[11-Dec-2019 20:18:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function pg_connect() in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 11
+[11-Dec-2019 20:21:05 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'chantita_editors'@'localhost' (using password: YES) in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 7
+[11-Dec-2019 20:21:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function pg_connect() in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php:11
+Stack trace:
+#0 {main}
+  thrown in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 11
+[11-Dec-2019 20:26:12 America/Chicago] PHP Fatal error:  Uncaught PDOException: could not find driver in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php:10
+Stack trace:
+#0 /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php(10): PDO->__construct('pgsql:user=exam...')
+#1 {main}
+  thrown in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 10
+[11-Dec-2019 20:40:44 America/Chicago] PHP Fatal error:  Uncaught PDOException: could not find driver in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php:10
+Stack trace:
+#0 /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php(10): PDO->__construct('pgsql:user=exam...')
+#1 {main}
+  thrown in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 10
+[11-Dec-2019 20:41:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function pg_connect() in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/chantitaweb/public_html/editor/grapesjs/services/templates.php on line 10
